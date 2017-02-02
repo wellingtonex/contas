@@ -64,4 +64,10 @@ public class Conta {
 		this.valor = valor;
 	}
 
+	@Override
+	public String toString() {
+		return "Conta [id=" + id + ", descricao=" + descricao + ", paga=" + paga
+				+ ", valor=" + valor + ", dataPagamento=" + dataPagamento
+				+ ", tipo=" + tipo + "]";
+	}
 }
