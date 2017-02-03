@@ -27,5 +27,9 @@
             </list>
         </property>
     </bean>
+    
+    <mvc:interceptors>
+  		<bean class="br.com.caelum.contas.interceptor.AutorizadorInterceptor" />
+	</mvc:interceptors>
 	
 </beans>
